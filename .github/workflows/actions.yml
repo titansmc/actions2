@@ -48,7 +48,7 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: comprova-desplegaments-macos
-          path: dist/comprova_desplegaments_mac
+          path: dist/comprova_desplegaments
   build-linux:
     runs-on: ubuntu-latest
 
@@ -70,4 +70,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: comprova-desplegaments-linux
-          path: dist/comprova_desplegaments_lin
+          path: dist/comprova_desplegaments
