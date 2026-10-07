@@ -22,3 +22,8 @@ jobs:
           
       - name: Empaquetem
         run: pyinstaller --onefile comprova_desplegaments.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: comprova-desplegaments-linux
+          path: dist/comprova_desplegaments
